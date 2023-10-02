@@ -4,13 +4,13 @@
     "builds": [
         {
             "src": "bin/server.js",
-            "use": "@versel/node"
+            "use": "@vercel/node"
         }
     ],
     "routes": [
         {
-            "src": "(.*)"
-            // "dist": "bin/server.js"
+            "src": "/(.*)",
+            "dest": "/"
         }
     ]
 }
