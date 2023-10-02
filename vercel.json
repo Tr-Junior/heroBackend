@@ -9,8 +9,8 @@
     ],
     "routes": [
         {
-            "src": "(.*)",
-            "dist": "bin/server.js"
+            "src": "(.*)"
+            // "dist": "bin/server.js"
         }
     ]
 }
